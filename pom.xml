@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.my.cloud.app</groupId>
-	<artifactId>springboot-app</artifactId>
+	<artifactId>springboot_app</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-app</name>
+	<name>springboot_app</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -38,7 +38,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>springboot-app</finalName>
+		<finalName>springbootapp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
