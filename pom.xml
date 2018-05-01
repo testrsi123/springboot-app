@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example.deba</groupId>
-	<artifactId>springboot-app</artifactId>
+	<groupId>com.rsys.app</groupId>
+	<artifactId>sample-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-app</name>
+	<name>sample-app</name>
 	<description>App project for Spring Boot</description>
 
 	<parent>
@@ -38,6 +38,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>sample-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

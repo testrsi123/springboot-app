@@ -13,7 +13,7 @@
  *
  **************************************************************************/
 
-package com.example.deba.springbootdemo.controller;
+package com.rsys.app.sample.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -24,20 +24,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * The rest controller for SoftwareVersion Audit operations.
+ * The rest controller 
  * 
  */
 
 @RestController
 @RequestMapping(value = "/", produces = { MediaType.APPLICATION_STREAM_JSON_VALUE})
-public class SpringBootAppController {
+public class SampleApplicationController {
 
 	/**	
 	 * @param httpRequest
 	 * @return 
 	 */
-	@GetMapping(value = "checkMe")
-	public ResponseEntity<String> getCheckMe(HttpServletRequest httpRequest) {	
+	@GetMapping(value = "message")
+	public ResponseEntity<String> getMessage(HttpServletRequest httpRequest) {	
 		return ResponseEntity.ok("Hi Welcome to spring boot app demo");
 	}
 

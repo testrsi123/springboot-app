@@ -1,4 +1,4 @@
-package com.example.deba.springbootdemo;
+package com.rsys.app.sample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootDemoApplicationTests {
+public class SampleApplicationTests {
 
 	@Test
 	public void contextLoads() {
